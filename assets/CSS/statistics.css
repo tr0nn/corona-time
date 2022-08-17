@@ -1,0 +1,25 @@
+.search-country input{
+    display: flex;
+    height: 48px;
+    width: 239px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #e6e6e7;
+    margin-top: 30px;
+    text-align: center;
+}
+table{
+    text-align: center;
+    height: 610px;
+    width: 100%; 
+    border-collapse: collapse;
+}
+thead{
+    background-color: rgba(0, 0, 0, 0.04);
+    height: 60px;
+}
+table td{
+    border-bottom: 1px solid #f6f6f7;
+    border-right: 1px solid #f6f6f7;
+    border-left: 1px solid #f6f6f7;
+}
