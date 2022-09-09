@@ -34,6 +34,10 @@ header ul li:nth-child(3) {
 }
 a {
     text-decoration: none;
+    color: black;
+}
+a.hover{
+    font-weight: bold;
 }
 .rotate-line{
     color: #E6E6E7;
@@ -51,6 +55,7 @@ a {
     margin-left: -100px;
     font-family: sans-serif;
 }
+
 .wordlwide-by-country li:hover {
     text-decoration: underline 3px solid #010414;
   }
@@ -107,6 +112,9 @@ section{
     margin-top: 60px;
 }
 
+#hr{
+    border-top: 1px solid #F6F6F7;
+}
 
 @media (min-width: 776){
     .hide-phone{
